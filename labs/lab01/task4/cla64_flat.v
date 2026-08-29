@@ -2366,5 +2366,5 @@ assign #(2) c[64] =
   // Step 3: sum bits
   // ---------------------------------------------------------------------
   // TODO: assign #(2) sum = p ^ {c[63:1], cin};
-assign #(2) sum = p ^ {c[63:1], cin};
+assign #(2) sum = p ^ {c[63:1], cin};  
 endmodule
